@@ -1,9 +1,8 @@
-const { stdin, stdout } = require("process");
 const readline = require("readline");
 
 const rl = readline.createInterface({
-  input: stdin,
-  output: stdout,
+  input: process.stdin,
+  output: process.stdout,
 });
 
 const words = ["animals", "kingdom", "jurassic", "world", "kingkong"];
